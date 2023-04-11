@@ -54,3 +54,21 @@ print(lista_compuesta)
 
 #Count(), cuenta la cantidad de veses que se repite un elemto dentro de una lista 
 print(estudiantes.count("Carlos"))
+
+print(estudiantes[0])
+print(estudiantes[1])
+print(estudiantes[2])
+print(estudiantes[-2])
+print(estudiantes[-5])
+
+estudiantes[1] = "Gabriela"
+print(estudiantes)
+
+data_asig = [10023, "Programacion", 1, True]
+cod,ramo,semestre,estado = data_asig
+
+print(estudiantes + num)
+print(list("Python"))
+print(list(range(10)))
+print("\n")
+print(list(range(-10)))
