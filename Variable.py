@@ -19,6 +19,10 @@ print ("Hola a todos, mi nombre es", str(nombre), "y tengo", str(edad))
 nombre2= "Pedro"
 print ("yo soy", nombre2)
 #utilizando la instruccion input
-#a
+
 nombre2= input ("¿cual es tu nombre?\n")
 print("Tu nombre es", nombre2)
+print(f"Hola mi nombre es {nombre2} y tengo {edad} años")
+
+Ciudad, region, pais, año = "Riobueno", "Los Rios", "Chile", 2004
+print(Ciudad, region, pais, año)
