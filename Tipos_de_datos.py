@@ -61,6 +61,7 @@ print(estudiantes[2])
 print(estudiantes[-2])
 print(estudiantes[-5])
 
+#Mutabilida de Listas
 estudiantes[1] = "Gabriela"
 print(estudiantes)
 
@@ -71,3 +72,38 @@ print(estudiantes + num)
 print(list("Python"))
 print(list(range(10)))
 print("\n")
+
+#Tuplas (No Mutables)
+g1 = ("Daniel","Cristian","Felipe",200,100,"Daniel")
+print(type(g1))
+print(g1)
+print(g1[0])
+print(g1.count("Daniel"))
+print(g1.index("Daniel"))
+
+#g1[0] = "Constansa"
+#print(g1)
+
+print(g1[2:5])
+
+#Para modificar una Tupla hay que transformala a una lista
+
+g1 = list(g1)
+print(type(g1))
+
+#SETS (Estructura fija de datos)
+conjunto_vacio = set({})
+conjunto_vacio1 = {}
+conjunto_colores = set({"Azul","Rojo","Verde","Amarillo"})
+conjunto_animales = {"Perro","Loro","Gato"}
+
+print(type(conjunto_vacio))
+print(type(conjunto_vacio1))
+
+#print(conjunto_animales[0])
+#conjunto_animales = list(conjunto_animales)
+#print(conjunto_animales[0])
+
+conjunto_colores.add("Gris")
+
+print(conjunto_colores)
