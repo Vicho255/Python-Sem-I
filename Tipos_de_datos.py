@@ -107,3 +107,24 @@ print(type(conjunto_vacio1))
 conjunto_colores.add("Gris")
 
 print(conjunto_colores)
+#Dicionarios
+datos_personales = {
+    "Nombre":"Vicente",
+    "Institucion":"Ulagos",
+    "Edad":18,
+    "Asignaturas":{"Estructura da Datos","Programacion"}
+    }
+print(datos_personales)
+
+print(len(datos_personales))
+
+print(datos_personales["Nombre"])
+
+datos_personales["Edad"]="19"
+print(datos_personales)
+
+datos_personales["Ciudad"]="Osorno"
+print(datos_personales)
+
+del datos_personales["Ciudad"]
+print(datos_personales)
