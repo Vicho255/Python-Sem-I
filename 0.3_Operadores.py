@@ -36,3 +36,39 @@ if (a!=b):
 else:
     print("No Loco")  
     
+#sienpre antes de una comparacion entre cadenas de texto usar la funcion len
+
+#Operadores logicos
+bencina = True
+encendido = True
+edad = 18
+
+#AND
+if bencina and encendido:
+    print("El veiculo puede arrancar")
+else:
+    print("El veiculo no puede arrancar")
+
+#OR
+if bencina or encendido:
+    print("El veiculo puede arrancar")
+else:
+    print("El veiculo no puede arrancar")
+
+#NOT + AND
+if not bencina and encendido:
+    print("El veiculo puede arrancar")
+else:
+    print("El veiculo no puede arrancar")
+
+#NOT + OR 
+if not bencina or encendido:
+    print("El veiculo puede arrancar")
+else:
+    print("EL vaiculo no puede arrancar")
+
+#NOT + OR +AND
+if not bencina or (encendido and edad >= 18):
+    print("El veiculo puede arrancar")
+else:
+    print("El veiculo no puede arrancar")
