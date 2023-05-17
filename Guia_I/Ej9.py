@@ -10,7 +10,7 @@ a=[4, 3, 8, 12, 6, 10, 14, 3, 6]
 
 a.pop(-1)
 #print(a)
-a.append(2)
+a.insert(0,2)
 #print(a)
 b=set(a)
 #print(b)
