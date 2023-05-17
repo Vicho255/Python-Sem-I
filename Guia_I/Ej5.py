@@ -11,3 +11,7 @@ lab1=float(input())
 lab2=float(input())
 lab3=float(input())
 
+pp=lab1 * 0,3 + lab2 * 0,4 + lab3 * 0,3
+
+print(pp)
+
