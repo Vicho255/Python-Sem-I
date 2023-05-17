@@ -7,3 +7,7 @@ la asignatura. Si la nota es superior 6,0, debe mostrar el mensaje: el estudiant
 aprobo con distincion.
 """
 
+lab1=float(input())
+lab2=float(input())
+lab3=float(input())
+
